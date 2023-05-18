@@ -72,3 +72,11 @@ body::before {
   height: 100vh;
   z-index: -1;
 }
+
+.mark::before {
+  content: "《";
+}
+
+.mark::after {
+  content: "》";
+}
